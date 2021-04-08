@@ -147,21 +147,48 @@ Gimp</div>
             <h3 class="display-4 font-weight-bold" > Portfolio</h3>
           
             <hr class="w-50 mx-auto pb-5">
-             
-    
-  
+            <div class = "filter-container">
+              <div class = "category-head">
+                  <ul>
+                      <div class = "category-title active" id = "all">
+                          <li>Tous les projets</li>
+                          <span><i class = "fas fa-border-all"></i></span>
+                      </div>
+                      <div class = "category-title" id = "web">
+                          <li>Site Web</li>
+                          <span><i class="fas fa-laptop-code"></i></span>
+                      </div>
+                      <div class = "category-title" id = "app">
+                          <li>Applications</li>
+                          <span><i class="fas fa-mobile-alt"></i></span>
+                      </div>
+                      <div class = "category-title" id = "jeux">
+                          <li>Jeux</li>
+                          <span><i class="fas fa-gamepad"></i></span>
+                      </div>
+                      <div class = "category-title" id = "word">
+                          <li>Wordpress</li>
+                          <span><i class = "fab fa-wordpress"></i></span>
+                      </div>
+                  </ul>
+                </div>              </div>
+
         <div class="projects" >
           <div class="container">
-            <div class="project">
+            <div class="project all word">
               <div class="project-img-cont">
                 <img src="images/Capture3.png" alt="project-image" />
+                <span class = "category-name">                              <i class="fab fa-wordpress" style="color: #2596be;font-size: 40px;"> </i>
+                </span>
+
               </div>
               <h3 class="project-title">"Site One Page" KaraÏbesFOODS<sup>App</sup> </h3>
               
               <p class="project-desc">
                   <span>
                       Page de présentation de l'application mobile<br>
-                    <b>[*WORDPRESS ] </b>
+
+                    
                     </span>
                 </p>
               <div class="project-actions" style="margin-top:2.5%;">
@@ -172,15 +199,18 @@ Gimp</div>
               </div>
             </div>
   
-            <div class="project">
+            <div class="project all web">
               <div class="project-img-cont">
                 <img src="images/SIte.png" alt="project-image" />
+                <span class = "category-name">                            <i class="fab fa-js-square" style="color: #fdda3e;font-size: 40px;"></i>
+                  <i class="fab fa-bootstrap" style="color:#563d7c;font-size: 40px;"></i>
+                                  </span>
+
               </div>
               <h3 class="project-title">KaraÏbesFOODS</h3>
               <p class="project-desc">
                 <span>
                     2<sup>éme</sup> version du site web de référencement pour les restaurateurs carïbéens
-                    <br><b>[*BOOTSTRAP ] [*JAVASCRIPT ] [*GOOGLEMAPAPI ]</b>
                 </span>
               </p>
               <div class="project-actions" style="margin-top:2.5%;">
@@ -191,15 +221,16 @@ Gimp</div>
               </div>
             </div>
 
-            <div class="project">
+            <div class="project all jeux">
                 <div class="project-img-cont">
                   <img src="images/Capture4.png" alt="project-image" />
+                  <span class = "category-name">                            <i class="fab fa-js-square" style="color: #fdda3e;font-size: 40px;"></i>
+                                    </span>
                 </div>
                 <h3 class="project-title">Mon GWOKA</h3>
                 <p class="project-desc">
                   <span>
                     Kit de son de tambour de Gwoka.<br>
-                      <b> [*JAVASCRIPT ]</b>
                   </span>
                 </p>
                 <div class="project-actions" style="margin-top:2.5%;">
@@ -210,15 +241,16 @@ Gimp</div>
                 </div>
               </div>
 
-              <div class="project">
+              <div class="project all jeux">
                 <div class="project-img-cont">
                   <img src="images/Capture5.png" alt="project-image" />
+                  <span class = "category-name">                            <i class="fab fa-js-square" style="color: #fdda3e;font-size: 40px;"></i>
+                  </span>
                 </div>
                 <h3 class="project-title">Attrape Bokit</h3>
                 <p class="project-desc">
                   <span>
                     Jeu de la taupe revisité.<br>
-                    <b>[*JAVASCRIPT ]</b>
                   </span>
                 </p>
                 <div class="project-actions" style="margin-top:2.5%;">
@@ -292,6 +324,7 @@ Gimp</div>
     </footer><!-- footer end -->
 
     <script src="js/app.js"></script>
+    <script src = "js/script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
