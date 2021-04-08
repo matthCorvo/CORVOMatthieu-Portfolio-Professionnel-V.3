@@ -34,6 +34,7 @@ ul {list-style-type: none;
 
 .wrapper{
   display: inline-flex;
+
 }
 .wrapper .icon{
   margin: 0 20px;
@@ -154,48 +155,19 @@ ul {list-style-type: none;
   background: #1e2a2e;
   color: rgb(255, 255, 255);
 }
+
+
+
+
   /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
 .skills {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 0;
-    max-width: 40rem;
-    margin-bottom: 0;
+ 
   }
   
-.skills .skill {
-    list-style: none;
-    background: #eee;
-    color: #333;
-    display: inline-block;
-    padding: 1rem 1.5rem;
-    text-transform: uppercase;
-    margin-bottom: 1.5rem;
-    font-size: 1rem;
-    letter-spacing: 3px;
-    font-family: 'montserrat-medium', sans-serif;
-    margin-right: 1.5rem;
-  }
-
-  .skills i {
-    font-size:25px;
-    padding-left: 5px;
-    line-height: 1;
-  }
-  
-  .skills .git{
-    font-size:25px;
-    padding-right: 5px;
-    line-height: 1;
-  }
-  
-   
-  .skill:hover {
-    background: rgba(255, 255, 255, 0.12);
-  }
-
 /* ===================================================================
  * # works - (_site-layout.scss)
  *
