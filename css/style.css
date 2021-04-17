@@ -288,6 +288,12 @@ ul {list-style-type: none;
     width: 100%;
   }
   
+  
+.gif{
+  width: 25%;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
   .projects .project .project-title {
     margin-top: 0;
     margin-bottom: 3rem;
