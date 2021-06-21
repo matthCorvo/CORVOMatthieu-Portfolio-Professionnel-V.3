@@ -71,6 +71,9 @@ body {
   padding: 25px 0;
   border-bottom: 2px solid #b1eaff;
 }
+.resume_item  .title1 {
+  margin-bottom: 10px;
+}
 
 .resume .resume_left .resume_item:last-child,
 .resume .resume_right .resume_item:last-child {
