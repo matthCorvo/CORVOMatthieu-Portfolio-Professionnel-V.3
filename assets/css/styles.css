@@ -892,6 +892,18 @@ transition: .3s;
   border-radius: 0.5rem;
   padding: 0.75rem 1rem 0.25rem;
 }
+.arobase::before {
+  content: "\000040";
+  font-size: inherit !important;
+}
+.arobase span {
+font-size: 1px;
+  font-size: 0.1px;
+  text-indent: -999px;
+  width: 1px;
+  overflow: hidden;
+}
+
 .contact_input {
   width: 100%;
   background-color: var(--input-color);
